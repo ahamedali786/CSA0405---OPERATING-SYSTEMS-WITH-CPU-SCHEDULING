@@ -69,3 +69,35 @@ int main() {
 
     return 0;
 }
+
+SAMPLE INPUT:
+Single Level Directory Simulation
+
+Menu:
+1. Create File
+2. Display Files
+3. Search File
+4. Exit
+Enter your choice:
+
+SAMPLE OUTPUT:
+Enter your choice: 1
+Enter file name to create: SACC
+File created successfully.
+
+Menu:
+1. Create File
+2. Display Files
+3. Search File
+4. Exit
+Enter your choice: 3
+Enter file name to search: SACC
+File 'SACC' found in directory.
+
+Menu:
+1. Create File
+2. Display Files
+3. Search File
+4. Exit
+Enter your choice: 4
+Exiting...
