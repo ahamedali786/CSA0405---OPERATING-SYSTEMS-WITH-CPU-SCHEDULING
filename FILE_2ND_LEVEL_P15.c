@@ -93,3 +93,42 @@ int main() {
 
     return 0;
 }
+
+SAMPLE INPUT:
+Two Level Directory Simulation
+Enter number of users: 2
+Enter name of user 1: CHARAN
+Enter name of user 2: CHETHAN
+
+SAMPLE OUTPUT:
+Menu:
+1. Create File
+2. Display Files
+3. Search File
+4. Exit
+Enter your choice: 1
+Enter user number (1 to 2): 1
+Enter file name to create: HII
+File created successfully for user CHARAN.
+
+Menu:
+1. Create File
+2. Display Files
+3. Search File
+4. Exit
+Enter your choice: 2
+
+Files for user CHARAN:
+HII
+
+Files for user CHETHAN:
+No files.
+
+Menu:
+1. Create File
+2. Display Files
+3. Search File
+4. Exit
+Enter your choice: 4
+Exiting...
+
