@@ -43,3 +43,25 @@ int main() {
 
     return 0;
 }
+
+SAMPLE INPUT:
+Reader-Writer Problem Simulation
+
+Menu:
+1. Reader reads resource
+2. Writer writes resource
+3. Exit
+Enter choice: 1
+
+SAMPLE OUTPUT:
+Enter choice: 1
+Reader 1 reading resource: 0
+
+Enter choice: 2
+Writer updated resource to: 1
+
+Enter choice: 1
+Reader 1 reading resource: 1
+
+Enter choice: 3
+Exiting simulation.
