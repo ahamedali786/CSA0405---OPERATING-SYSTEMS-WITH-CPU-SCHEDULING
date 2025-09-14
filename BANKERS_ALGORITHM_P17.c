@@ -66,3 +66,31 @@ int main() {
     }
     return 0;
 }
+
+SAMPLE INPUT:
+Enter number of processes and resources: 4 4
+Enter allocation matrix (4x4):
+1 1 2 4
+2 2 6 5
+0 2 3 5
+2 5 8 6
+Enter max matrix (4x4):
+1 2 5 4
+0 4 8 5
+3 6 9 5
+1 4 8 9
+Enter available resources (4):
+5
+7 
+8 
+6 
+
+SAMPLE OUTPUT:
+Need Matrix:
+0	1	3	0	
+-2	2	2	0	
+3	4	6	0	
+-1	-1	0	3	
+
+System is in a safe state.
+Safe sequence: P0 P1 P2 P3 
