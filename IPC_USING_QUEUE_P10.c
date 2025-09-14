@@ -55,3 +55,5 @@ int main()
     }
     return 0;
 }
+SAMPLE OUTPUT:
+Parent received: Hello from Child via Message Queue!
