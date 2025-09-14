@@ -53,3 +53,19 @@ int main()
 
     return 0;
 }
+SAMPLE INPUT:
+Enter number of processes: 4
+Enter burst time and priority for each process:
+Process 1 (BT Priority): 8 1
+Process 2 (BT Priority): 6 2
+Process 3 (BT Priority): 4 3
+Process 4 (BT Priority): 2 4
+SAMPLE OUTPUT:
+PID     Burst   Priority        Waiting Turnaround
+1       8       1               0       8
+2       6       2               8       14
+3       4       3               14      18
+4       2       4               18      20
+
+Average Waiting Time = 10.00
+Average Turnaround Time = 15.00
