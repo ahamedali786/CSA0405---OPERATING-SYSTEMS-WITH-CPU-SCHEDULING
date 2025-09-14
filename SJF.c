@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int b[10], WT[10], TAT[10], pid[10];
     int TWT = 0, TTAT = 0, i, j, n;
@@ -52,3 +51,16 @@ int main() {
 
     return 0;
 }
+SAMPLE INPUT:
+Enter number of processes: 4
+Enter burst times:
+8 6 4 2
+SAMPLE OUTPUT:
+Process BT      WT      TAT
+P4      2       0       2
+P3      4       2       6
+P2      6       6       12
+P1      8       12      20
+
+Average Waiting Time = 5.00
+Average Turnaround Time = 10.00
