@@ -51,3 +51,20 @@ int main()
 
     return 0;
 }
+
+SAMPLE INPUT:
+Enter number of processes: 4
+Enter burst times for each process:
+Process 1: 8
+Process 2: 6
+Process 3: 4
+Process 4: 2
+SAMPLE OUTPUT:
+Process Burst   Waiting Turnaround
+4       2       0       2
+3       4       2       6
+2       6       6       12
+1       8       12      20
+
+Average Waiting Time = 5.00
+Average Turnaround Time = 10.00
