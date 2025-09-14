@@ -30,3 +30,10 @@ int main()
 
     return 0;
 }
+SAMPLE INPUT:
+Enter no of processes: 4
+Enter burst times:
+8 6 4 2
+SAMPLE OUTPUT:
+The average waiting time = 10
+The average turnaround time = 15
