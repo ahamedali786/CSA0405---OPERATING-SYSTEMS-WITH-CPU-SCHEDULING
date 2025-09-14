@@ -76,3 +76,33 @@ int main() {
     fclose(fp);
     return 0;
 }
+
+SAMPLE INPUT:
+Enter number of employees: 2
+
+Employee 1 details:
+ID: 101
+Name: Alice
+Salary: 50000
+
+Employee 2 details:
+ID: 102
+Name: Bob
+Salary: 60000
+
+SAMPLE OUTPUT:
+Menu:
+1. Display all employees
+2. Display specific employee (random access)
+3. Exit
+Enter your choice: 1
+
+All Employees:
+ID: 101, Name: Alice, Salary: 50000.00
+ID: 102, Name: Bob, Salary: 60000.00
+
+Enter your choice: 2
+Enter employee record number (1 to 2): 2
+Employee 2 details:
+ID: 102, Name: Bob, Salary: 60000.00
+
