@@ -52,3 +52,21 @@ int main()
 
     return 0;
 }
+
+SAMPLE INPUT:
+Enter number of processes: 4
+Enter burst times:
+Process 1: 10
+Process 2: 8
+Process 3: 6
+Process 4: 4
+Enter time quantum: 4
+SAMPLE OUTPUT:
+Process BT      WT      TAT
+1       10      18      28
+2       8       16      24
+3       6       20      26
+4       4       12      16
+
+Average Waiting Time = 16.50
+Average Turnaround Time = 23.50
