@@ -46,3 +46,19 @@ int main() {
 
     return 0;
 }
+
+SAMPLE INPUT:
+Enter number of memory blocks: 4
+Enter size of each memory block:
+100 200 300 400
+Enter number of processes: 4
+Enter size of each process:
+100 200 300 400 
+
+SAMPLE OUTPUT:
+
+Process No	Process Size	Block Allocated
+   1		   100		             1
+   2		   200		             2
+   3		   300		             3
+   4		   400		             4
