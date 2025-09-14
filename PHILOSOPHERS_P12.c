@@ -24,3 +24,45 @@ int main() {
     printf("All philosophers finished eating.\n");
     return 0;
 }
+
+SAMPLE OUTPUT:
+Simulating Dining Philosophers Problem:
+
+Round 1:
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is thinking
+Philosopher 5 is thinking
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+
+Round 2:
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is thinking
+Philosopher 5 is thinking
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+
+Round 3:
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is thinking
+Philosopher 5 is thinking
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+
+All philosophers finished eating.
+
