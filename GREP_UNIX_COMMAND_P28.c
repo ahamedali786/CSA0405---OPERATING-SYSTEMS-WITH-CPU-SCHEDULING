@@ -44,3 +44,22 @@ int main() {
 
     return 0;
 }
+
+SAMPLE INPUT:
+=== Simulation of `grep` Command ===
+
+Enter number of lines (1-50): 4
+
+Enter 4 lines:
+apple pie is tasty
+banana bread is good
+grapes are sweet
+apple jam is nice
+
+Enter pattern to search: apple
+
+SAMPLE OUTPUT:
+
+Lines containing 'apple':
+apple pie is tasty
+apple jam is nice
