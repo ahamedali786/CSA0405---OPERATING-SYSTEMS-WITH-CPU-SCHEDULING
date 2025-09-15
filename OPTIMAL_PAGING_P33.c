@@ -82,3 +82,34 @@ int main()
     printf("\nTotal page faults = %d\n", faults);
     return 0;
 }
+
+SAMPLE INPUT:
+Enter number of pages in reference string: 20
+Enter the reference string:
+7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+Enter number of frames: 3
+
+SAMPLE OUTPUT:
+Step	Page	Frames	Fault
+1	7	7 - - 	Yes
+2	0	7 0 - 	Yes
+3	1	7 0 1 	Yes
+4	2	2 0 1 	Yes
+5	0	2 0 1 	No
+6	3	2 0 3 	Yes
+7	0	2 0 3 	No
+8	4	2 4 3 	Yes
+9	2	2 4 3 	No
+10	3	2 4 3 	No
+11	0	2 0 3 	Yes
+12	3	2 0 3 	No
+13	2	2 0 3 	No
+14	1	2 0 1 	Yes
+15	2	2 0 1 	No
+16	0	2 0 1 	No
+17	1	2 0 1 	No
+18	7	7 0 1 	Yes
+19	0	7 0 1 	No
+20	1	7 0 1 	No
+
+Total page faults = 9
