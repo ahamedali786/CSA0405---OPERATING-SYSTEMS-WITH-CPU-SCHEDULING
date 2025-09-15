@@ -52,3 +52,22 @@ int main()
 
     return 0;
 }
+
+SAMPLE INPUT:
+Enter total number of disk blocks: 20
+Enter number of files to allocate: 3
+
+Enter starting block and length of file 1: 2 5
+File 1 allocated blocks 2 to 6
+
+Enter starting block and length of file 2: 7 4
+File 2 allocated blocks 7 to 10
+
+Enter starting block and length of file 3: 5 3
+File 3: Blocks already allocated, cannot place file.
+
+SAMPLE OUTPUT:
+Final allocation status of disk blocks:
+0:0  1:0  2:1  3:1  4:1  5:1  6:1  7:1  
+8:1  9:1  10:1  11:0  12:0  13:0  14:0  15:0  
+16:0  17:0  18:0  19:0  
