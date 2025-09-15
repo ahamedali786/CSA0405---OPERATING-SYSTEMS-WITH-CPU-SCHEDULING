@@ -33,3 +33,9 @@ int main() {
 
     return 0;
 }
+
+SAMPLE OUTPUT:
+Hello from thread 1
+Hello from thread 2
+Threads are different
+Both threads have finished.
