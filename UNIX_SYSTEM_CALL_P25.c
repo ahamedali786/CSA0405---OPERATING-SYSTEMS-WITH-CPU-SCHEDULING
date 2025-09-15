@@ -52,3 +52,16 @@ int main() {
 
     return 0;
 }
+
+SAMPLE OUTPUT:
+=== Simulated UNIX I/O System Calls ===
+
+[open] File 'demo.txt' opened with flags = 1
+[stat] File: demo.txt | Size: 256 bytes | Flags: 1
+[seek] Moving file pointer by 10 bytes (simulation)
+[fcntl] Performing command 2 (simulation)
+[opendir] Opening current directory (simulation)
+[readdir] file1.txt
+[readdir] data.c
+[readdir] report.pdf
+
