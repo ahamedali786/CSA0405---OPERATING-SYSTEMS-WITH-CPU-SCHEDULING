@@ -28,3 +28,19 @@ int main() {
 
     return 0;
 }
+
+SAMPLE INPUT:
+Enter number of files (1–20): 5
+Enter 5 file names:
+alpha.txt
+beta.c
+gamma.pdf
+delta.jpg
+epsilon
+
+SAMPLE OUTPUT:
+alpha.txt
+beta.c
+gamma.pdf
+delta.jpg
+epsilon
