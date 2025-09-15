@@ -30,3 +30,16 @@ int main()
 
     return 0;
 }
+
+SAMPLE INPUT:
+Enter number of disk requests: 5
+Enter the disk requests (track numbers):
+55 58 39 18 90
+Enter the initial head position: 50
+
+SAMPLE OUTPUT:
+Order of servicing requests:
+50 -> 55 -> 58 -> 39 -> 18 -> 90
+
+Total Seek Time = 120
+Average Seek Time = 24.00
