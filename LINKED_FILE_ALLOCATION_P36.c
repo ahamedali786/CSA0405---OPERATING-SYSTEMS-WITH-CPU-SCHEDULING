@@ -69,3 +69,19 @@ int main()
 
     return 0;
 }
+
+SAMPLE INPUT:
+Enter total number of disk blocks: 16
+Enter starting block of the file: 2
+Enter number of blocks to allocate (including start): 4
+Enter the remaining 3 block numbers:
+5 7 9
+
+SAMPLE OUTPUT:
+File allocated successfully using linked allocation.
+Blocks of the file:
+2 -> 5 -> 7 -> 9 -> NULL
+
+Disk status (block:allocated):
+0:0  1:0  2:1  3:0  4:0  5:1  6:0  7:1  
+8:0  9:1  10:0  11:0  12:0  13:0  14:0  15:0 
