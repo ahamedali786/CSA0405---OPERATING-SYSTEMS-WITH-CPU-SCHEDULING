@@ -38,3 +38,13 @@ int main() {
 
     return 0;
 }
+
+SAMPLE OUTPUT:
+=== File Management Operations (Simulation) ===
+
+[create/write] sample.txt created & data written.
+[read] Contents of sample.txt:
+Hello! This is a demo text.
+
+[rename] sample.txt → renamed.txt
+[delete] renamed.txt removed successfully.
