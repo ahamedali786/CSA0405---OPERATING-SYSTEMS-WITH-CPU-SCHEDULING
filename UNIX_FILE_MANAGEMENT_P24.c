@@ -41,3 +41,26 @@ int main() {
 
     return 0;
 }
+
+SAMPLE INPUT:
+=== Sequential File Allocation (Simulation) ===
+
+Enter number of records (max 5): 3
+Enter data for record 1: ALPHA
+Enter data for record 2: BETA
+Enter data for record 3: GAMMA
+
+Records stored sequentially:
+Record 1 -> ALPHA
+Record 2 -> BETA
+Record 3 -> GAMMA
+
+Enter record number to access: 3
+
+SAMPLE OUTPUT:
+Reading records in sequence:
+Reading Record 1: ALPHA
+Reading Record 2: BETA
+Reading Record 3: GAMMA
+
+Data at Record 3 = GAMMA
