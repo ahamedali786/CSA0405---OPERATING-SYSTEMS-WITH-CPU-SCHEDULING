@@ -72,3 +72,27 @@ int main() {
     }
     return 0;
 }
+
+SAMPLE OUTPUT:
+=== Producer-Consumer Simulation ===
+
+1. Produce
+2. Consume
+3. Display Buffer
+4. Exit
+Enter your choice: 1
+Enter item to produce: 11
+Produced item: 11
+
+Enter your choice: 1
+Enter item to produce: 22
+Produced item: 22
+
+Enter your choice: 3
+Buffer contents: 11 22
+
+Enter your choice: 2
+Consumed item: 11
+
+Enter your choice: 3
+Buffer contents: 22
