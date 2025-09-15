@@ -66,3 +66,19 @@ int main()
 
     return 0;
 }
+
+SAMPLE INPUT:
+Enter total number of disk blocks: 16
+Enter the index block number: 3
+Enter number of blocks to allocate for the file: 5
+Enter the block numbers to be allocated:
+5 6 8 10 12
+
+SAMPLE OUTPUT:
+File allocated successfully!
+Index Block: 3
+Blocks of the file: 5 6 8 10 12 
+
+Disk status (block:allocated):
+0:0  1:0  2:0  3:1  4:0  5:1  6:1  7:0  
+8:1  9:0  10:1  11:0  12:1  13:0  14:0  15:0  
