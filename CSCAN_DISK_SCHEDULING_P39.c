@@ -60,3 +60,17 @@ int main()
 
     return 0;
 }
+
+SAMPLE INPUT:
+Enter total number of tracks (disk size): 200
+Enter number of disk requests: 5
+Enter the disk requests (track numbers):
+55 58 39 18 90
+Enter initial head position: 50
+
+SAMPLE OUTPUT:
+Seek sequence (C-SCAN):
+50 -> 55 -> 58 -> 90 -> 199 -> 0 -> 18 -> 39 -> END
+
+Total Seek Time = 387
+Average Seek Time = 77.40
