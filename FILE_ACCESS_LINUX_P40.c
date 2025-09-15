@@ -54,3 +54,16 @@ int main()
 
     return 0;
 }
+
+SAMPLE OUTPUT:
+=== Linux File Access Permissions (Simulation) ===
+
+File: demo.txt
+Owner: ahamed | Group: students
+Permissions: rw-r--r--
+
+After changing permissions to 754 (rwxr-xr--):
+
+File: demo.txt
+Owner: ahamed | Group: students
+Permissions: rwxr-xr--
